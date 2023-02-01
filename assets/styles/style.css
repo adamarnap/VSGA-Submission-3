@@ -1,0 +1,165 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ h2 {
+     text-align: center;
+     color: #2AC73F;
+ }
+
+ h3{
+     color: #2AC73F;
+ }
+
+ h4{
+     color: #2AC73F;
+     margin-left: 45px;
+ }
+
+ .hempat{
+     margin-left: 48px;
+ }
+ p {
+     color: #525252;
+ }
+
+
+.logo {
+    background-image: url('../image/bibitbackground.jpg'); 
+    background-size: cover;
+}
+
+.logo-bibit{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    height: auto;
+    width: auto;
+}
+
+nav{ 
+   padding: 2px;
+   position:sticky;
+   top: 0;
+   background-color: #2AC73F;
+   text-align: center;
+   box-shadow: 1px 2px 5px rgb(77, 75, 75);
+}
+
+
+
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 70px;
+ }
+
+nav a {
+    font-size: 18px;
+    font-weight: 400px;
+    text-decoration: none;
+    color: #ffffff;
+ }
+ 
+nav a:hover {
+    font-weight: bold;
+ }
+
+main{
+    padding: 30px;
+    overflow: auto;
+ }
+
+ #content {
+    float: right;
+    width: 75%;
+ }
+
+ 
+
+ aside {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+ }
+
+ .aside-h3{
+    color: #db8605;
+    text-align: center;
+ }
+
+ .profile header {
+    text-align: center;
+ }
+ 
+ .profile img {
+    width: 200px;
+ }
+
+ .featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #2AC73F;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px rgb(77, 75, 75);
+ }
+
+ .gambar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 40%;
+    max-width: 100%;
+    border-radius: 3%;
+    box-shadow: 5px 10px 20px rgb(77, 75, 75);
+    
+ }
+
+ .aside-gambar{
+     border-radius: 2%;
+ }
+ 
+
+
+
+ @media screen and (max-width: 1000px) {
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+   
+ }
+
+ header{
+     display: inline;
+ 
+ }
+ 
